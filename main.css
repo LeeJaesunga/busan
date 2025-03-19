@@ -1,0 +1,339 @@
+.hide,legend,hr,caption span {
+    position: absolute;
+    left: -3000%;
+}
+
+ul,li,a {
+    text-decoration: none;
+
+}
+
+
+#banner {
+    background: #0e3c84;
+    height: 160px;
+
+}
+
+#banner > div {
+width: 1200px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+}
+#banner .prev, 
+#banner .next,
+#banner .control,
+#banner .close {
+position: absolute;
+}
+
+#banner .prev {
+left: 0;
+top: 44px;
+}
+
+#banner .next {
+right:0;
+top: 42px;
+}
+#banner .control {
+left: 0;
+bottom: 11px;
+font-size: 0;
+}
+
+#banner .control a {
+    margin-right: 15px;
+}
+
+#banner .close {
+right: 0;
+bottom: 4px;
+}
+
+#banner .close label {
+font-size: 11px;
+color: #fff;
+padding-right: 22px;
+}
+
+#header {
+    height: 99px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+#header > div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header > div >*{
+float: left;
+}
+
+#header h1 {
+    padding: 0px 20px 0px 0px;
+}
+
+#header #lnb li {
+float: left;
+padding: 0px 16px;
+} 
+
+#header #lnb li a {
+ display: block;
+ height: 99px;
+ line-height: 99px;
+ font-size: 16px;
+ font-weight: bold;
+ color: #333;
+ 
+}
+
+#header #lnb li a:hover {
+    height: 95px;
+    border-bottom: 4px solid #1764dc;
+    color: #3c91f3;
+   background: url("/img/bg_lnb.gif") no-repeat center 87px;
+}
+
+#header p {
+    float: left;
+    height: 99px;
+    line-height: 99px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0e3c84;
+}
+
+#header p span {
+    color: #1764dc;
+}
+
+#header > div > div {
+    float: right;
+}
+
+#header > div > div > div {
+    float: left;
+    padding: 30px 0 0 0px;
+    font-size: 0;
+}
+
+#header .btn_pop {
+    width: 70px;
+    height: 40px;
+    background:url("/img/bu_arrow_down.gif")no-repeat 55px center #2cc06b;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: -2px;
+    font-size: 11px;
+    color: #fff;
+    line-height: 40px;
+    text-indent: 9px;
+}
+
+#visual {
+    background: url("/img/bg_visual.jpg")no-repeat center top;
+}
+
+#visual > div {
+    width: 1200px; 
+    margin: 0 auto;
+}
+
+#visual .copy {
+    padding: 25px 0 0;
+}
+
+#visual .copy > div {
+    float: left;
+    width: 33.33%;
+}
+
+#visual .copy .txt1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    /* text-align: center; */
+    letter-spacing: 12px;
+    padding: 127px 0 0 0;
+}
+
+#visual .copy .txt1 div {
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0;
+
+}
+
+#visual .copy .txt1 img {
+    margin: 0 22px 0 8px;
+}
+
+#visual .copy .txt2 {
+    width: 415px;
+    height: 334px;
+   background: url("/img/bg_circle.png")no-repeat center; 
+   font-family: 'russell_squareregular';
+   font-size: 20px;
+   color: #fff;
+   text-align: center;
+   padding: 80px 0 0 0;
+}
+
+#visual .copy .txt2 div {
+    font-family: 'russell_squareregular';
+    font-size: 135px;
+    color: #fff;
+}
+
+#visual .copy .txt3 {
+    color: #fff;
+    font-family: 'russell_squareregular';
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 15px;
+    padding: 127px 0 0 0px;
+    float: right;
+    width: 326px;
+}
+
+#visual .copy .txt3 div {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+     text-align: center;
+     letter-spacing: 7px;
+}
+
+#visual .paging {
+    text-align: center;
+    font-size: 0;
+    margin: 0px 0 16px;
+}
+
+#visual .paging div {
+ padding: 17px 0 0 0;
+}
+
+#visual .paging ul {
+    font-size: 0;
+    display: inline-block;
+}
+
+#visual .paging li {
+    display: inline-block;
+    margin: 0px 7px;
+}
+
+#visual .paging p {
+    margin: 0px 7px;
+    display: inline-block;
+    font-size: 0;
+}
+
+#visual .bottom h2 {
+    width: 100px;
+    height: 67px;
+    background: #f13009;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 33px 0 0 0;
+    float: left;
+}
+
+#visual .bottom .event {
+    float: left;
+    width: 730px;
+    height: 100px;
+    background: rgba(0,0,0,0.3);
+    padding: 0px 80px;
+    position: relative;
+}
+
+#visual .bottom .event div {
+    position: absolute;
+    left: 38px;
+    top: 28px;
+    background: url("/img/bg_line.gif")no-repeat center 25px;;
+}
+
+#visual .bottom .event div a {
+    display: block;
+    margin: -6px 0 32px;
+}
+
+#visual .bottom .event li {
+    float: left;
+    width: 50%;
+   
+}
+
+#visual .bottom .event ul {
+    padding: 26px 0 0 0;
+}
+
+#visual .bottom .event li a {
+    font-size: 14px;
+    padding: 0 0 0 18px;
+    display: block;
+    color: #fff;
+    background: url("/img/bu_circle.png")no-repeat left;
+    line-height: 22px;
+}
+
+#visual .bottom .weather {
+    float: right;
+    width: 124px;
+    height: 100px;
+    background: #23b963;
+    padding: 0px 43px;
+    position: relative;
+}
+
+#visual .bottom .weather h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 17px 0 0 9px;
+}
+
+#visual .bottom .weather > a {
+    position: absolute;
+    top: 50%;
+    margin-top: -6.5px;
+}
+
+#visual .bottom .weather > a.left {
+ left: 19px;
+}
+
+#visual .bottom .weather > a.right {
+right: 19px;
+}
+
+#visual .bottom .weather > div {
+   padding: 0 0 0 68px;
+   position: relative;
+   font-size: 12px;
+   color: #fff;
+}
+
+#visual .bottom .weather > div img {
+    position: absolute;
+    left: 9px;
+    top: 0px;
+}
+
+#visual .bottom .weather > div  div {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
