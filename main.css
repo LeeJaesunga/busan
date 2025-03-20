@@ -601,6 +601,7 @@ position: relative;
 #safe .news > div {
     float: right;
     width: 530px;
+    position: relative;
 }
 
 #safe .news > div:first-child {
@@ -613,15 +614,53 @@ position: relative;
     padding: 0 0 21px;
 }
 
-#safe .news h3 li {
+#safe .news li {
     height: 74px;
+    padding: 0 0 0 100px;
+    position: relative;
 }
 
-#safe .news h3 li a {
+#safe .news li a {
     height: 74px;
     line-height: 74px;
     border-bottom: 1px solid #ececec;
     display: block;
+}
+
+#safe .news li a img {
+    position: relative;
+   
+}
+
+#safe .news li span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 74px;
+    border-bottom: 1px solid #ececec;
+    text-align: center;
+    width: 70px;
+    font-size: 13px;
+    color: #888;
+}
+
+#safe .news li span strong {
+     padding: 20px 0 0 0;
+     display: block;
+    font-size: 21px; color: #1e62cc;
+   
+}
+
+#safe .news > div p {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+#safe .next {
+    padding: 35px 0 20px;
+    text-align: center;
 }
 
 
