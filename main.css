@@ -135,6 +135,8 @@ padding: 0px 16px;
     text-indent: 9px;
 }
 
+/* visual */
+
 #visual {
     background: url("/img/bg_visual.jpg")no-repeat center top;
 }
@@ -331,9 +333,296 @@ right: 19px;
 }
 
 #visual .bottom .weather > div  div {
-    font-size: 30px;
+    font-size: 29px;
     color: #fff;
     font-weight: bold;
 }
+
+/* traffic_box */
+
+#traffic_box {
+    background: url("/img/bg_traffic.jpg")no-repeat center top;
+}
+
+#traffic_box > div {
+    width: 1200px; 
+    margin: 0 auto;
+    position: relative;
+}
+
+#traffic_box >div h2 {
+    font-size: 38px;
+    padding: 70px 0 0 0;
+    color: #fefefe;
+    text-align: center;
+}
+
+#traffic_box > div .speed {
+    width: 250px;
+    height: 230px;
+    margin: 35px auto 145px;
+    background: url("/img/bg_circle2.png")no-repeat center top;
+    text-align: center;
+   
+}
+
+#traffic_box > div .speed div {
+    color: #fff;
+}
+
+
+#traffic_box > div div .t1 {
+padding: 72px 0 0px;
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 10px;
+text-indent: 6px;
+}
+
+#traffic_box > div div .t2 {
+    font-size: 60px;
+    line-height: 73%;
+
+} 
+
+#traffic_box > div div .t3 {
+    font-size: 11px;
+    padding: 17px 0 0;
+   
+}
+
+#traffic_box > div .left {
+    position: absolute;
+    left: 50px;
+    top: 246px;
+}
+
+#traffic_box > div .right {
+    position: absolute;
+    right: 60px;
+    top: 270px;
+}
+
+#traffic_box > div .left li {
+    float: left;
+    padding: 0 3px 0 0;
+}
+
+#traffic_box > div .left a {
+    display: block;
+    width: 105px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    background: url("/img/bg_btn_tab.png")no-repeat left top;
+}
+
+#traffic_box > div .left a:hover ,
+#traffic_box > div .left li.on a {
+    background-position: right top;
+}
+
+#traffic_box > div .graph {
+    width: 1052px;
+    margin: 0 auto;
+}
+
+#traffic_box > div .graph  ul {
+    padding: 98px 0 0 0;
+}
+
+#traffic_box > div .graph li {
+    width: 45px;
+    padding: 0 0 0 80px;
+    float: left;
+    background: url("/img/bg_arrow.png")no-repeat 23px center;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+#traffic_box > div .graph li:first-child {
+    background: none;
+    padding-left: 0px;
+}
+
+#traffic_box > div .graph li:first-child {
+    right:0px;
+}
+
+#traffic_box > div .graph li > div {
+    position: absolute;
+    right: -47px;
+    top: -205px;
+    font-size: 12px;
+
+}
+
+#traffic_box > div .graph li > div strong {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+
+#traffic_box > div .graph li > div strong img{
+    display: block;
+    margin: 0 auto;
+}
+
+#traffic_box > div .graph li > div strong img + span {
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    background: #0e3c84;
+    width: 215px;
+    padding: 8px;
+    left: 29px;
+    top: -22px;
+    display: none;
+}
+
+#traffic_box > div .graph li > div strong img:hover +span {
+    display: block;
+}
+
+#traffic_box > div .next {
+    text-align: center;
+    padding: 13px 0 28px;
+}
+
+/* safe */
+
+#safe {
+    background: url("/img/bg_visual2.gif")no-repeat center top;
+}
+
+#safe > div {
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#safe > div h2 {
+    font-size: 38px;
+    color: #123977;
+    text-align: center;
+    padding: 72px 0 36px;
+}
+
+#safe .list {
+    border: 1px solid#ddd;
+}
+
+#safe .list li {
+float: left;
+width: 25%;
+border-left: 1px solid #ddd;
+margin-left: -1px;
+text-align: center;
+background-position: center 50px;
+background-repeat: no-repeat;
+position: relative;
+}
+
+#safe .list li h3 {
+ padding: 140px 0 16px;
+ background: url("/img/bg_line.gif")no-repeat center bottom;
+ font-size: 19px;
+ color: #333;
+}
+
+#safe .list li div {
+    padding: 19px 0 0;
+    height: 85px;
+    font-size: 13px;
+    color: #777;
+    line-height: 18px;
+}
+
+#safe .list li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: transparent;
+}
+
+#safe .list li .bg1 {
+    background-image: url("/img/bg_ico_off1.png");
+}
+
+#safe .list li .bg2 {
+    background-image: url("/img/bg_ico_off2.png");
+}
+
+#safe .list li .bg3 {
+    background-image: url("/img/bg_ico_off3.png");
+}
+
+#safe .list li .bg4 {
+    background-image: url("/img/bg_ico_off4.png");
+}
+
+#safe .list li:hover {
+    background-color: #1660b4;
+}
+
+#safe .list li:hover h3,
+#safe .list li:hover div {
+    color: #fff;
+}
+
+#safe .list li .bg1:hover {
+    background-image: url("/img/bg_ico_off1.png");
+}
+
+#safe .list li .bg2:hover {
+    background-image: url("/img/bg_ico_off2.png");
+}
+
+#safe .list li .bg3:hover {
+    background-image: url("/img/bg_ico_off3.png");
+}
+
+#safe .list li .bg4:hover {
+    background-image: url("/img/bg_ico_off4.png");
+}
+
+#safe .news {
+    padding: 40px 0 0;
+    
+}
+
+#safe .news > div {
+    float: right;
+    width: 530px;
+}
+
+#safe .news > div:first-child {
+    float: left;
+}
+
+#safe .news h3 {
+    font-size: 22px;
+    color: #333;
+    padding: 0 0 21px;
+}
+
+#safe .news h3 li {
+    height: 74px;
+}
+
+#safe .news h3 li a {
+    height: 74px;
+    line-height: 74px;
+    border-bottom: 1px solid #ececec;
+    display: block;
+}
+
 
 
