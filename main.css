@@ -663,5 +663,120 @@ position: relative;
     text-align: center;
 }
 
+/* trip */
+
+#trip {
+    background: url("/img/bg_visual2.jpg") no-repeat center top;
+}
+
+#trip > div {
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#trip > div h2 {
+    font-size: 38px;
+    color: #ab2246;
+    text-align: center;
+    padding: 72px 0 37px;
+}
+
+#trip > div > a {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+#trip .white_box {
+    background: rgba(255,255,255,0.9);
+    padding: 30px 60px;
+}
+
+#trip .white_box > div {
+    float: left;
+    margin: 0 50px;
+    width: 230px;
+}
+
+#trip > div h3 {
+    font-size: 20px;
+    color: #333;
+    padding: 0 0 15px;
+}
+
+#trip .white_box > div > a {
+    position: relative;
+    display: block;
+}
+
+#trip .white_box > div > a em,
+#trip .white_box > div > a span {
+position: absolute;
+
+}
+
+#trip .white_box> div > a span {
+    width: 170px;
+    height: 78px;
+    background: url("/img/bg_over.png") no-repeat;
+    padding: 21px 0 0 0;
+    font-size: 14px;
+    color: #fff;
+    width: 170px;
+    height: 64px;
+    text-align: center;
+    line-height: 20px;
+    left: 50%;
+    top: 50%;
+    margin: -39px 0 0 -85px;
+}
+
+#trip .white_box > div > a:hover span {
+    display: block;
+}
+
+#trip .white_box> div > a em {
+    font-size: 14px;
+    color: #fff;
+    left: 20px;
+    bottom: 18px;
+}
+
+#trip .white_box> div > a:hover em {
+    display: none;
+}
+
+/* sns */
+
+#sns {
+    background: url("/img/bg_visual3.jpg") no-repeat center top;
+}
+
+#sns > div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#sns > div  > h2 {
+    padding: 74px 0 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 58px;
+    letter-spacing: 20px;
+    font-weight: normal;
+}
+
+#sns > div > p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+#sns > div .sns_box > div {
+    float: left;
+     
+}
+
 
 
