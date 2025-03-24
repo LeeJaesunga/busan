@@ -773,10 +773,82 @@ position: absolute;
     text-align: center;
 }
 
+#sns > div .sns_box {
+    padding: 47px 0 0;
+}
+
 #sns > div .sns_box > div {
     float: left;
-     
+     width: 270px;
+     margin-left: 45px;
+     height: 460px;
+     background: #fff;
+     padding: 40px 50px 0;
 }
+
+#sns > div .sns_box > div:first-child {
+    margin: 0px;
+}
+
+#sns > div .sns_box h3 {
+    font-size: 21px;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+#sns > div .sns_box > div.sns1 h3 {
+    padding: 0px;
+    color: #3658a5;
+}
+
+#sns > div .sns_box > div.sns2 h3 {
+    padding: 0px;
+    color: #32900b;
+}
+
+#sns > div .sns_box > div.sns3 h3 {
+    padding: 0px;
+    color: #3b9dea;
+}
+
+#sns > div .sns_box > div.sns2 p {
+    font-size: 14px;
+    color: #828281;
+    text-align: center;
+    padding: 9px 0 19px;
+}
+
+#sns > div .sns_box > div.sns2 img {
+   border-bottom: 1px solid #aaa; 
+  
+}
+
+#sns > div .sns_box > div.sns2 h4 img{
+    border: none;
+    padding: 0 0 15px;
+}
+
+#sns > div .sns_box > div a {
+    text-align: center;
+    color: #fff;
+    height: 43px;
+    font-size: 12.5px;
+    line-height: 43px;
+    display: block;
+    margin:10px 0 0 ;
+    background: url("/img/bg_arrow2.png") no-repeat 236px center;
+}
+
+#sns > div .sns_box > div .sns1 a {
+    background-color: #3b56ad;
+}
+
+#sns > div .sns_box > div .sns2 a {
+    background-color: #35b22c;
+}
+
+
+
 
 
 
